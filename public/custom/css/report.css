@@ -1,0 +1,83 @@
+#print_icon{
+	position:absolute;right:0;margin-right:20px;
+}
+#print_icon img{
+	width:35px;
+}
+#printTable .print-base{
+	text-align: center;
+	margin-bottom:25px;
+	border-bottom:solid 1px #ccc;
+}
+#printTable img{
+	width:80px;
+	margin: 0 auto;	
+}
+#printTable .print-ptag{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 0.8;
+}
+#printTable .table-print-style-1{
+	width: 100%;
+	font-size: 14px;
+}
+#printTable .table-print-style-1 th{
+	font-weight: bold;
+	border: 1px solid #ddd;
+	padding: 3px 3px;
+}
+#printTable .table-print-style-1 tbody tr td{
+	border: 1px solid #ddd;
+	padding: 3px 3px;
+}
+#printTable .table-print-style-1 tfoot tr, #printTable table thead{
+	background: #ccc;
+}
+
+#printTable .table-print-style-1 tfoot tr td{
+	font-weight: bold;
+	border: 1px solid #ddd;
+	padding: 3px;	
+}
+
+
+#printTable .table-print-style-2{
+	width: 100%;border-collapse: collapse;text-align: left; margin-top: 50px;
+}
+#printTable .table-print-style-2 .header-top {
+	background-color: #ddd;
+}
+#printTable .table-print-style-2 .header-top th{
+	border: 1px solid #969090;
+	padding:7px;
+}
+#printTable .table-print-style-2 tbody tr .report-year{
+	border: 1px solid #969090; padding:7px 7px 7px 7px; font-weight: bold; font-size: 16px;
+}
+#printTable .table-print-style-2 tbody tr .report-month{
+	border: 1px solid #969090; padding:7px 7px 7px 25px; font-weight: bold; font-size: 14px;
+}
+
+#printTable .table-print-style-2 tbody .base-loop-row td{
+	border: 1px solid #969090;
+	padding:3px;
+}
+#printTable .table-print-style-2 tfoot tr{
+	background-color: #ddd;
+}
+#printTable .table-print-style-2 tfoot tr th{
+	border: 1px solid #969090; padding:7px;
+}
+.salarynoprintdata{
+	color: #ddd; font-size: 26px; font-weight: bold;
+}
+.width250{
+	width:250px;
+}
+.print-child-table{
+	width: 100%; font-size: 14px;
+}
+.print-child-table tr{
+	background-color: #dddddd7a !important;
+}
